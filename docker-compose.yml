@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web:
+    image: impranshu/pinball:v1
+    restart: always
+    ports:
+      - "8080:80"
